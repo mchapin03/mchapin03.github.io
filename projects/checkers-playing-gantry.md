@@ -3,10 +3,10 @@ layout: project
 title: Checkers Playing Gantry
 permalink: /projects/checkers-playing-gantry/
 type: Embedded Systems
-description: Placeholder project for a controller board, actuator system, or firmware interface. Mention hardware constraints and how you validated the result.
+description: A 3-axis gantry designed with the purpose of manipulating board game pieces.
 tags:
   - Embedded C
-  - Control
+  - Controls
 
 repo_url: "#"
 demo_url: "#"
