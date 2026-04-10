@@ -1,0 +1,21 @@
+- category: Software
+  items:
+    - Embedded C
+    - Python
+    - Adobe Creative Cloud
+    - Microsoft 365
+
+- category: Hardware
+  items:
+    - Arduino
+    - Manual Machining
+    - Soldering / Electronics Prototyping
+    - Electronics Test & Measurement Equipment
+
+- category: Design & Tools
+  items:
+    - SolidWorks
+    - FEA
+    - GD&T
+    - AutoCAD
+    - KiCAD

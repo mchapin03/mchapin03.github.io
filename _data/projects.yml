@@ -1,0 +1,40 @@
+- title: RTX Autonomous Vehicle Challenge
+  type: Robotics
+  description: >-
+    The 2026 RTX Autonomous Vehicle Challenge has teams build an unmanned ground vehicle and unmanned aerial vehicle to complete various tasks.
+  tags:
+    - ROS 2
+
+  repo_url: "#"
+  demo_url: "#"
+  detail_url: "/projects/rtx-autonomous-vehicle-challenge/"
+  image: "/assets/images/RTX_AVC.webp"
+  placeholder: Robot screenshot
+
+- title: Checkers Playing Gantry
+  type: Embedded Systems
+  description: >-
+    Placeholder project for a controller board, actuator system, or firmware
+    interface. Mention hardware constraints and how you validated the result.
+  tags:
+    - Embedded C
+    - Control
+
+  repo_url: "#"
+  demo_url: "#"
+  detail_url: "/projects/checkers-playing-gantry/"
+  image: ""
+  placeholder: PCB / scope image
+
+- title: Rube Goldberg Machine
+  type: Mechanical Design
+  description: >-
+    We were tasked to create a Rube Goldberg machine to move a golf ball. This is my mechanism for the larger machine.
+  tags:
+    - Engineering Design
+
+  repo_url: "#"
+  demo_url: "#"
+  detail_url: "/projects/rube-goldberg-machine/"
+  image: "/assets/images/SHAFT-ASSEMBLY (1).gif"
+  placeholder: CAD render

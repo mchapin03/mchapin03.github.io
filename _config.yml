@@ -1,0 +1,18 @@
+title: Matthew Chapin
+email: mtchapin03@gmail.com
+description: >-
+  portfolio.
+baseurl: ""
+url: "https://mchapin03.github.io"
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

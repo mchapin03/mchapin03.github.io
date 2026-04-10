@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="project-detail">
+  <a class="back-link" href="{{ '/' | relative_url }}#projects">Back to projects</a>
+
+  <header class="project-detail-hero">
+    <div class="project-detail-copy">
+      <p class="project-meta">{{ page.type }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+
+      {% if page.tags %}
+        <ul class="tag-list">
+          {% for tag in page.tags %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <div class="hero-links project-detail-links">
+        {% if page.repo_url and page.repo_url != "#" %}
+          <a class="button" href="{{ page.repo_url }}">GitHub</a>
+        {% endif %}
+        {% if page.demo_url and page.demo_url != "#" %}
+          <a class="button" href="{{ page.demo_url }}">Case study</a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="project-detail-visual">
+      {% if page.image %}
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }} preview">
+      {% else %}
+        <div class="placeholder-visual">
+          <span>{{ page.placeholder }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="project-detail-body">
+    {{ content }}
+  </div>
+</article>
