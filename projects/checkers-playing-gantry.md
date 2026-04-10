@@ -19,3 +19,5 @@ placeholder: PCB / scope image
 This is a current work-in-progress project which aims to apply the topics I learned in MAE 6194 - Mechatronics. I aim to build robot that can play checkers and, in the future, chess. Currently, I have position control on a stepper motor
  and am in the process of fabricating the frame for the gantry.
 
+## Technical Information
+I am using TMC2209 stepper motor drivers and AS5600 magnetic position encoders for feedback motor control. Each Nema-17 Stepper motor will have its own Arduino nano running proportional control. These will be controlled by a main computer sending position commands via UART.

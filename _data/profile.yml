@@ -1,10 +1,9 @@
 name: Matthew Chapin
-eyebrow: Engineering student
-tagline: 4th Year Mechanical Engineering student at George Washington University
+#eyebrow: Engineering student
+tagline: 4th Year Mechanical Engineering student concentrating in robotics at the George Washington University
 resume_url: "#"
 about: >-
-  This is a placeholder bio. Replace it with a concise introduction covering what
-  you build, what roles you want, and the tools you use most often.
+  I am passionate about the junction between mechanical design and electronics.
 interests:
   - Mechanical Design
   - Electromechanical Controls
@@ -14,7 +13,7 @@ contact_blurb: >-
   entry-level roles, or collaborative engineering work.
 links:
   - label: GitHub
-    url: https://github.com/yourusername
+    url: https://github.com/mchapin03
   - label: LinkedIn
     url: https://www.linkedin.com/in/matthew-chapin-577111289/
   - label: Email

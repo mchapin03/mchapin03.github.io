@@ -205,6 +205,9 @@ h1 {
 }
 
 .section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
   max-width: 720px;
   margin-bottom: 1.5rem;
 }
@@ -212,6 +215,11 @@ h1 {
 .section h2 {
   font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 1.08;
+}
+
+.section-heading h2,
+.section-heading .section-kicker {
+  margin: 0;
 }
 
 .about-grid {
