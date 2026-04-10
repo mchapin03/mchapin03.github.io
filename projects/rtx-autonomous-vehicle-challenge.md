@@ -6,7 +6,7 @@ type: Robotics
 description: The 2026 RTX Autonomous Vehicle Challenge has teams build an unmanned ground vehicle and unmanned aerial vehicle to complete various tasks.
 tags:
   - ROS 2
-  - Embedded
+
 repo_url: "#"
 demo_url: "#"
 image: /assets/images/RTX_AVC.webp

@@ -7,7 +7,7 @@ description: We were tasked to create a Rube Goldberg machine to move a golf bal
 tags:
   - CAD
   - Engineering Design
-  - Prototyping
+
 repo_url: "#"
 demo_url: "#"
 image: /assets/images/SHAFT-ASSEMBLY (1).gif
