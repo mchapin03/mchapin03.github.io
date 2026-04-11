@@ -352,7 +352,16 @@ h1 {
 }
 
 .project-links .project-cta {
-  color: var(--text);
+  background: #ffffff;
+  color: #0c0d10;
+  border-color: transparent;
+}
+
+.project-links .project-cta:hover,
+.project-links .project-cta:focus-visible {
+  background: rgba(255,255,255,0.92);
+  color: #0c0d10;
+  border-color: transparent;
 }
 
 .project-visual img,

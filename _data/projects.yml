@@ -5,7 +5,7 @@
   tags:
     - ROS 2
 
-  repo_url: "#"
+  repo_url: "https://github.com/mchapin03/direct_ugv_live_vicon"
   demo_url: "#"
   detail_url: "/projects/rtx-autonomous-vehicle-challenge/"
   image: "/assets/images/RTX_AVC.webp"

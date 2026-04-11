@@ -16,7 +16,7 @@ placeholder: CAD render
 
 ## Overview
 
-For my mechanical systems design class we were tasked with creating a Rube Goldberg machine which transports a golf. The class was divided into teams of 4 to 5 and was given a footprint of 2x2x3ft. Each student must make a mechanism that moves the golf ball 1ft within 5 +/- 0.1 seconds.
+For my mechanical systems design class we were tasked with creating a Rube Goldberg machine which transports a gol ball. The requirements were to create a mechanism that moves the golf ball 1ft within 5 +/- 0.1 seconds while utilizing at least one linkage and one gear.
 I chose a 'staircase' mechanism which uses oscillatory motion to translate the golf ball upwards and around a 90-degree turn. This was facilitated with a crankshaft and stepper motors.
 
 ## Future Work
