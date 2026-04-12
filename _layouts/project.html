@@ -26,8 +26,36 @@ layout: default
       </div>
     </div>
 
-    <div class="project-detail-visual">
-      {% if page.image %}
+    {% assign detail_has_video = false %}
+    {% if page.video or page.video_embed_url %}
+      {% assign detail_has_video = true %}
+    {% endif %}
+    <div class="project-detail-visual{% if detail_has_video %} has-video{% endif %}">
+      {% if page.video_embed_url %}
+        <iframe
+          src="{{ page.video_embed_url }}"
+          title="{{ page.title }} video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      {% elsif page.video %}
+        {% assign video_src = page.video %}
+        {% unless page.video contains '://' %}
+          {% assign video_src = page.video | relative_url %}
+        {% endunless %}
+        {% assign video_poster = "" %}
+        {% if page.video_poster %}
+          {% assign video_poster = page.video_poster %}
+          {% unless page.video_poster contains '://' %}
+            {% assign video_poster = page.video_poster | relative_url %}
+          {% endunless %}
+        {% endif %}
+        <video controls preload="metadata" playsinline{% if video_poster != "" %} poster="{{ video_poster }}"{% endif %}>
+          <source src="{{ video_src }}"{% if page.video_type %} type="{{ page.video_type }}"{% endif %}>
+        </video>
+      {% elsif page.image %}
         <img src="{{ page.image | relative_url }}" alt="{{ page.title }} preview">
       {% else %}
         <div class="placeholder-visual">

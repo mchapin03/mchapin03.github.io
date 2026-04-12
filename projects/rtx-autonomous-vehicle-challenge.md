@@ -24,3 +24,14 @@ The 2026 RTX AVC focused on a search and rescue mission containing one UAV and o
 
 The UGV was created from a goBILDA chassis, 2 Roboclaw 2x15A motor controllers, and 4 DC motors. We utilized an Nvidia Jetson Orin Nano Devlopment Kit as the main computer, and a ZED Mini Stereo Camera for Visual Inertial SLAM and state estimation.
 ROS2 was used to communicate between sensors and electromechanical devices.
+
+<div class="project-inline-video">
+  <iframe
+    src="https://www.youtube.com/embed/lQuj9eMAfHI"
+    title="RTX Autonomous Vehicle Challenge video"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
