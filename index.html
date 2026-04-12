@@ -32,17 +32,7 @@ title: Home
     <h2>About</h2>
     <p class="section-kicker">Building practical systems with software, electronics, and hardware.</p>
   </div>
-  <div class="about-grid">
-    <p>{{ site.data.profile.about }}</p>
-    <div class="note-card">
-      <p class="note-title">Currently interested in</p>
-      <ul>
-        {% for item in site.data.profile.interests %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  <p class="about-copy">{{ site.data.profile.about }}</p>
 </section>
 
 <section class="section" id="skills">

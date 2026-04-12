@@ -222,10 +222,8 @@ h1 {
   margin: 0;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1.6fr 1fr;
-  gap: 1.25rem;
+.about-copy {
+  max-width: 720px;
 }
 
 .note-card,
@@ -405,6 +403,7 @@ h1 {
 }
 
 .project-detail-visual {
+  aspect-ratio: 4 / 3;
   min-height: 320px;
   border-radius: calc(var(--radius) + 4px);
   overflow: hidden;
@@ -442,7 +441,6 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .about-grid,
   .skills-grid {
     grid-template-columns: 1fr;
   }

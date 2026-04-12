@@ -3,11 +3,8 @@ name: Matthew Chapin
 tagline: 4th Year Mechanical Engineering student concentrating in robotics at the George Washington University
 resume_url: "#"
 about: >-
-  I am passionate about the junction between mechanical design and electronics.
-interests:
-  - Mechanical Design
-  - Electromechanical Controls
-  - Embedded Systems
+  I am passionate about the junction between mechanical design and electronics. My current interests involve mechanical design, 
+  electromechanical controls, and embedded systems
 contact_blurb: >-
   I enjoy projects that combine hardware and software. Reach out for internships,
   entry-level roles, or collaborative engineering work.
@@ -16,5 +13,4 @@ links:
     url: https://github.com/mchapin03
   - label: LinkedIn
     url: https://www.linkedin.com/in/matthew-chapin-577111289/
-  - label: Email
-    url: mailto:your.email@example.com
+
