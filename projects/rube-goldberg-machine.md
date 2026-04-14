@@ -47,4 +47,10 @@ This project was my introduction to microcontrollers and utilizing them to contr
 </div>
 ## Future Work
 
-Despite the mechanism functioning, it is clear there is room for improvement. The alignment of parts caused catching, and the crankshaft was not balanced. This caused issues with torque resulting in jittery movement. If I were to do this project again, I would increase focus on part alignment and cooling of motor drivers to enable a higher current limit to increase motor torque.
+Despite the mechanism functioning, it is clear there is room for improvement. 
+The alignment of parts caused catching, and the crankshaft was not balanced. 
+This caused issues with torque resulting in jittery movement. 
+If I were to do this project again, I would increase focus on part alignment 
+and cooling of motor drivers to enable a higher current limit to increase motor torque. 
+Additionally, I had chosen a stepper library that was blocking, causing issues with code performance. 
+I have since gained an understanding of interrupts and timers, leading to better judgment in library choice.

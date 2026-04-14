@@ -20,4 +20,4 @@ This is a current work-in-progress project which aims to apply the topics I lear
  and am in the process of fabricating the frame for the gantry.
 
 ## Technical Information
-I am using TMC2209 stepper motor drivers and AS5600 magnetic position encoders for feedback motor control. Each Nema-17 Stepper motor will have its own Arduino nano running proportional control. These will be controlled by a main computer sending position commands via UART.
+I am using TMC2209 stepper motor drivers and AS5600 magnetic position encoders communicating over I2C for feedback motor control. Each Nema-17 Stepper motor will have its own Arduino nano running proportional control. These will be controlled by a main computer sending position commands via UART.
