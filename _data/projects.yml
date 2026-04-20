@@ -22,7 +22,7 @@
   repo_url: "#"
   demo_url: "#"
   detail_url: "/projects/checkers-playing-gantry/"
-  image: ""
+  image: "/assets/images/SLDWORKS_eQYhpWy82Z.png"
   placeholder: PCB / scope image
 
 - title: Rube Goldberg Machine

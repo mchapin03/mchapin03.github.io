@@ -10,7 +10,7 @@ tags:
 
 repo_url: "#"
 demo_url: "#"
-image: ""
+image: "/assets/images/SLDWORKS_eQYhpWy82Z.png"
 placeholder: PCB / scope image
 ---
 
