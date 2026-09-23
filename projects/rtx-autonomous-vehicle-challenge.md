@@ -8,7 +8,6 @@ tags:
   - ROS 2
 
 repo_url: "#"
-demo_url: "#"
 image: /assets/images/RTX_AVC.webp
 placeholder: Robot screenshot
 ---
@@ -28,8 +27,10 @@ After launching, there can only be direct communication between vehicles and no 
 ## Technical Information
 
 The UGV was created from a goBILDA chassis, 2 Roboclaw 2x15A motor controllers, and 4 DC motors. We utilized an Nvidia 
-Jetson Orin Nano Devlopment Kit as the main computer, and a ZED Mini Stereo Camera for Visual Inertial SLAM and state estimation.
+Jetson Orin Nano Development Kit as the main computer, and a ZED Mini Stereo Camera for Visual Inertial SLAM and state estimation.
 ROS2 was used to communicate between sensors and electromechanical devices.
+
+We utilized the following pre-existing ROS packages: ZED Stereolabs SDK (SLAM/State Estimation), NAV 2 (Pathplanning/Navigation)
 
 
 ## My Role
@@ -40,7 +41,7 @@ I designed the UAV propeller guards, UAV/UGV ZED camera holder, UAV and UGV came
 I wanted to focus on modular parts that could be removed if necessary for quick replacements or repositioning.
 
 ## Outcome
-We were able to successfuly build a UAV and UGV that were capable of autonomous navigation. Unfortunately on competition 
+We were able to successfully build a UAV and UGV that were capable of autonomous navigation. Unfortunately on competition 
 day, a hardware failure caused the position estimate of the UAV to become unreliable, resulting in issues with the landing 
 sequence and an incorrect destination ArUco marker location being sent to the UGV.
 

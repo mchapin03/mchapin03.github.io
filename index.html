@@ -30,7 +30,6 @@ title: Home
 <section class="section" id="about">
   <div class="section-heading">
     <h2>About</h2>
-    <p class="section-kicker">Building practical systems with software, electronics, and hardware.</p>
   </div>
   <p class="about-copy">{{ site.data.profile.about }}</p>
 </section>
@@ -38,7 +37,6 @@ title: Home
 <section class="section" id="skills">
   <div class="section-heading">
     <h2>Skills</h2>
-    <p class="section-kicker">Featured Skills.</p>
   </div>
 
   <div class="skills-grid">
@@ -58,7 +56,6 @@ title: Home
 <section class="section" id="projects">
   <div class="section-heading">
     <h2>Projects</h2>
-    <p class="section-kicker">Recent work.</p>
   </div>
 
   <div class="project-list">
@@ -88,7 +85,9 @@ title: Home
           </ul>
 
           <div class="project-links">
-            <a href="{{ project.repo_url }}">GitHub</a>
+            {% if project.repo_url %}
+              <a href="{{ project.repo_url }}">GitHub</a>
+            {% endif %}
             <a class="button project-cta" href="{{ project.detail_url | relative_url }}">Learn more</a>
           </div>
         </div>
@@ -101,7 +100,6 @@ title: Home
 <section class="section" id="contact">
   <div class="section-heading">
     <h2>Contact</h2>
-    <p class="section-kicker">Open to internships, entry-level roles, and collaborative builds.</p>
   </div>
 
   <div class="contact-card">

@@ -2,11 +2,10 @@
   type: Robotics
   description: >-
     The 2026 RTX Autonomous Vehicle Challenge has teams build an unmanned ground vehicle and unmanned aerial vehicle to complete various tasks.
-  tags:
-    - ROS 2
+#  tags:
+#    - ROS 2
 
   repo_url: "https://github.com/mchapin03/direct_ugv_live_vicon"
-  demo_url: "#"
   detail_url: "/projects/rtx-autonomous-vehicle-challenge/"
   image: "/assets/images/RTX_AVC.webp"
   placeholder: Robot screenshot
@@ -15,12 +14,11 @@
   type: Embedded Systems
   description: >-
     A 3-axis gantry designed with the purpose of manipulating board game pieces.
-  tags:
-    - Embedded C
-    - Controls
+#  tags:
+#    - Embedded C
+#    - Controls
 
-  repo_url: "#"
-  demo_url: "#"
+  repo_url: "github.com/mchapin03/StepperFeedback/blob/master/src/StepperFeedback.cpp"
   detail_url: "/projects/checkers-playing-gantry/"
   image: "/assets/images/SLDWORKS_eQYhpWy82Z.png"
   placeholder: PCB / scope image
@@ -29,11 +27,9 @@
   type: Mechanical Design
   description: >-
     A staircase mechanism designed to transport a golf ball as a part of a wider system.
-  tags:
-    - Engineering Design
+#  tags:
+#    - Engineering Design
 
-  repo_url: "#"
-  demo_url: "#"
   detail_url: "/projects/rube-goldberg-machine/"
   image: "/assets/images/SHAFT-ASSEMBLY (1).gif"
   placeholder: CAD render
