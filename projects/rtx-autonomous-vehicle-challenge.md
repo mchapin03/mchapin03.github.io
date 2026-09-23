@@ -31,7 +31,7 @@ Jetson Orin Nano Development Kit as the main computer, and a ZED Mini Stereo Cam
 ROS2 was used to communicate between sensors and electromechanical devices.
 
 We utilized the following pre-existing ROS packages: ZED Stereolabs SDK (SLAM/State Estimation), NAV 2 (Pathplanning/Navigation)
-
+    
 
 ## My Role
 Initially I started a UGV team member, working on wiring the motors and configuring the controllers to work with ROS2 on an 

@@ -11,15 +11,11 @@ title: Home
       <p class="lead">{{ site.data.profile.tagline }}</p>
 
       <div class="hero-links">
-        <a class="button primary" href="#projects">View projects</a>
         <a class="button" href="{{ site.data.profile.resume_url }}">Resume</a>
-      </div>
-
-      <ul class="social-list">
         {% for link in site.data.profile.links %}
-          <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+          <a class="button" href="{{ link.url }}">{{ link.label }}</a>
         {% endfor %}
-      </ul>
+      </div>
     </div>
     <div class="hero-headshot">
       <img src="{{ '/assets/images/headshot.webp' | relative_url }}" alt="{{ site.data.profile.name }} headshot">

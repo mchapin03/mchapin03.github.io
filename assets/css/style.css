@@ -76,14 +76,12 @@ img {
 }
 
 .site-nav a,
-.social-list a,
 .project-links a {
   color: var(--muted);
   transition: color 160ms ease, transform 160ms ease;
 }
 
 .site-nav a:hover,
-.social-list a:hover,
 .project-links a:hover {
   color: var(--text);
   transform: translateY(-1px);
@@ -165,6 +163,10 @@ h1 {
   gap: 0.9rem;
   flex-wrap: wrap;
   margin-top: 0;
+}
+
+.hero-links .button {
+  color: #fff;
 }
 
 .button {
@@ -522,8 +524,16 @@ h1 {
   }
 
   .hero-identity {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column-reverse;
+  }
+
+  .hero-copy {
+    width: 100%;
+  }
+
+  .hero-headshot {
+    margin-left: 0;
   }
 
   .project-inline-video {

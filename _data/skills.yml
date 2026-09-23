@@ -4,10 +4,12 @@
     - Python
     - Adobe Creative Cloud
     - Microsoft 365
+    - Overleaf / LaTeX
 
 - category: Hardware
   items:
-    - Arduino
+    - Arduino / ESP32 / Other Microcontrollers
+    - Raspberry Pi / Nvidia Jetson / Other SBCs
     - Manual Machining
     - Soldering / Electronics Prototyping
     - Electronics Test & Measurement Equipment

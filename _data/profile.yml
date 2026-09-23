@@ -1,15 +1,13 @@
 name: Matthew Chapin
 #eyebrow: Engineering student
-tagline: 4th Year Mechanical Engineering Student Concentrating in Robotics at the George Washington University
-resume_url: "#"
+tagline: Master's Student at Northeastern University Studying Robotics
+resume_url: "https://drive.google.com/file/d/128dS16jyBt4wrgaA5dKWxG80rxsG9RXe/view?usp=sharing"
 about: >-
   I am passionate about the intersection of mechanical design and electronics, with a particular interest in developing 
   integrated electromechanical systems. My current interests include mechanical design, electromechanical controls, and 
-  embedded systems.
+  embedded systems. I also enjoy working with autonomous mobile systems. Outside of this, I enjoy gaming (both tabletop 
+  and computer), photography, and music (I play piano, guitar, and drums).
 
-contact_blurb: >-
-  I enjoy projects that combine hardware and software. Reach out for internships,
-  entry-level roles, or collaborative engineering work.
 links:
   - label: GitHub
     url: https://github.com/mchapin03
