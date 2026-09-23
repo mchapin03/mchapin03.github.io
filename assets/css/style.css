@@ -533,7 +533,8 @@ h1 {
   }
 
   .hero-headshot {
-    margin-left: 0;
+    align-self: center;
+    margin-inline: auto;
   }
 
   .project-inline-video {
