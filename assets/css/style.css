@@ -532,6 +532,18 @@ h1 {
     width: 100%;
   }
 
+  .hero-copy h1 {
+    text-align: center;
+  }
+
+  .hero-copy .lead {
+    text-align: center;
+  }
+
+  .hero-links {
+    justify-content: center;
+  }
+
   .hero-headshot {
     align-self: center;
     margin-inline: auto;
