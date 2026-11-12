@@ -8,7 +8,7 @@ tags:
   - Embedded C
   - Controls
 
-repo_url: "#"
+repo_url: "https://github.com/mchapin03/StepperFeedback/blob/master/src/StepperFeedback.cpp"
 demo_url: "#"
 image: "/assets/images/SLDWORKS_eQYhpWy82Z.png"
 placeholder: PCB / scope image

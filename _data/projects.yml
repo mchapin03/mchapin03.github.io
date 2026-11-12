@@ -1,5 +1,5 @@
 - title: RTX Autonomous Vehicle Challenge
-  type: Robotics
+  type:
   description: >-
     The 2026 RTX Autonomous Vehicle Challenge has teams build an unmanned ground vehicle and unmanned aerial vehicle to complete various tasks.
 #  tags:
@@ -11,7 +11,7 @@
   placeholder: Robot screenshot
 
 - title: Checkers Playing Gantry
-  type: Embedded Systems
+  type:
   description: >-
     A 3-axis gantry designed with the purpose of manipulating board game pieces.
 #  tags:
@@ -24,7 +24,7 @@
   placeholder: PCB / scope image
 
 - title: Rube Goldberg Machine
-  type: Mechanical Design
+  type:
   description: >-
     A staircase mechanism designed to transport a golf ball as a part of a wider system.
 #  tags:

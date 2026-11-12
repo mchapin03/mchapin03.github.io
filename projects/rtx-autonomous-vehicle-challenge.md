@@ -7,7 +7,7 @@ description: The 2026 RTX Autonomous Vehicle Challenge has teams build an unmann
 tags:
   - ROS 2
 
-repo_url: "#"
+repo_url: "https://github.com/mchapin03/direct_ugv_live_vicon"
 image: /assets/images/RTX_AVC.webp
 placeholder: Robot screenshot
 ---

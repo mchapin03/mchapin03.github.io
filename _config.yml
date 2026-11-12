@@ -9,7 +9,7 @@ permalink: pretty
 
 collections:
   projects:
-    output: false
+    output: true
 
 defaults:
   - scope:
