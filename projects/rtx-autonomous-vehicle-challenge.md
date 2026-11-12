@@ -43,7 +43,7 @@ I wanted to focus on modular parts that could be removed if necessary for quick 
 ## Outcome
 We were able to successfully build a UAV and UGV that were capable of autonomous navigation. Unfortunately on competition 
 day, a hardware failure caused the position estimate of the UAV to become unreliable, resulting in issues with the landing 
-sequence and an incorrect destination ArUco marker location being sent to the UGV.
+sequence and an incorrect destination ArUco marker location being sent to the UGV on the final challenge.
 
 ## Showcase
 <div class="project-inline-video">

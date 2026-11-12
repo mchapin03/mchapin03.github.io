@@ -18,7 +18,7 @@
 #    - Embedded C
 #    - Controls
 
-  repo_url: "github.com/mchapin03/StepperFeedback/blob/master/src/StepperFeedback.cpp"
+  repo_url: "https://github.com/mchapin03/StepperFeedback/blob/master/src/StepperFeedback.cpp"
   detail_url: "/projects/checkers-playing-gantry/"
   image: "/assets/images/SLDWORKS_eQYhpWy82Z.png"
   placeholder: PCB / scope image
